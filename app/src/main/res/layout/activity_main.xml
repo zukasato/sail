@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="48dp"
+    android:paddingTop="24dp"
+    android:paddingRight="48dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="172dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/logo"
+        app:srcCompat="@drawable/ai_sail_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="16dp">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="132dp"
+
+            android:layout_weight="1"
+            android:paddingTop="24dp"
+            android:drawableTop="@drawable/ic_baseline_edit_24"
+            style="Widget.MaterialComponents.Button.Icon"
+            android:text="@string/to_edit" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="132dp"
+            android:layout_weight="1"
+            android:paddingTop="24dp"
+            android:drawableTop="@drawable/ic_baseline_check_box_24"
+            style="Widget.MaterialComponents.Button.Icon"
+            android:text="@string/to_check" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="-4dp"
+        android:paddingBottom="8dp">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="132dp"
+            android:paddingTop="24dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_baseline_settings_24"
+            style="Widget.MaterialComponents.Button.Icon"
+            android:text="@string/to_settings" />
+
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="132dp"
+            android:paddingTop="24dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_baseline_info_24"
+            style="Widget.MaterialComponents.Button.Icon"
+            android:text="@string/to_info" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:text="@string/logout"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/teal_200"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="99dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/rox_logo"
+        app:srcCompat="@drawable/rox_logo" />
+
+</LinearLayout>
