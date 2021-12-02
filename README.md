@@ -20,3 +20,6 @@ https://developer.android.com/studio/intro?hl=ja
 実行ボタン→エミュレーターで表示
 
 ## Publish　公開
+
+
+# XMLファイル（画面構成）の作成
