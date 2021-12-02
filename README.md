@@ -23,3 +23,30 @@ https://developer.android.com/studio/intro?hl=ja
 
 
 # XMLファイル（画面構成）の作成
+- 基本的なパーツはGoogleが推奨するマテリアルデザインからコードを参考に調整https://material.io/
+- スタイルを司るのはres/value
+- aタグがない・・・
+
+# 画面遷移
+.ktファイル+menu+navigation
+- bottomメニューバー
+> activity_main.xml
+> menu bottom_nav_bar
+> MainActivity.kt
+
+- AppBar ツールバー
+> flagment_input_actual.xml 
+> menu bottom_nav_bar
+> navigation nav_graph.xml
+> InputActualsFlragment.kt
+
+
+### HTML
+- Webページを記述するための表示用言語
+- Webページに装飾を施すのが目的
+- 人間に情報をわかりやすく表示するための言語
+
+### XML
+- データ記述用の言語
+- 文書中のデータをわかりやすくしたり、データを交換したりできる
+- マシンに情報をわかりやすく、効率よく伝えるための言語
