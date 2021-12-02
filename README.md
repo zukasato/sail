@@ -13,4 +13,4 @@ https://developer.android.com/studio/intro?hl=ja
 - メインで編集するファイルは
 > res/layoutの.xml<br>
 > javaの.kt<br>
-> res/valueのstrings.xml<br>
+> res/valueのstrings.xml(アプリを多言語対応させるときに、別言語で記述したstrings.xmlを作成し所定のフォルダに入れておくことでAndroidOSで自動で言語を切替)<br>
