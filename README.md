@@ -11,6 +11,6 @@ https://developer.android.com/studio/intro?hl=ja
 # WRITE アプリを作成する
 - 画面はXMLファイル（画面構成）+Kotolinクラス（処理）のペアで作られている
 - メインで編集するファイルは
--- res/layoutの.xml
+- -res/layoutの.xml
 -- javaの.kt
 -- res/valueのstrings.xml
